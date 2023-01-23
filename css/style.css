@@ -1,0 +1,137 @@
+/* Author : Ananthu A S */
+* {
+    margin: 0;
+}
+.container {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-shrink: 0;
+    background-image: linear-gradient(to bottom, #fff, #e8f9fd);
+}
+.navigation {
+    background-color: #f9f9f9;
+    padding: 30px;
+}
+.navigation a {
+    display: block;
+    text-decoration: none;
+    font-size: small;
+}
+.navigation img {
+    width: 100%;
+}
+a {
+    text-decoration: none;
+}
+.toplink {
+    text-align: end;
+    font-size: small;
+    word-spacing: 10px;
+}
+.searchbar {
+    display: inline;
+}
+.link {
+    margin: 10px;
+}
+.toplink2 {
+    position: relative;
+    background-image: linear-gradient(to bottom, #fff, #deecff);
+}
+.toplink2 a {
+    border: solid 1px #deecff;
+}
+.toplink-right {
+    display: inline;
+    position: absolute;
+    right: 0;
+}
+.article {
+    display: flex;
+    font-size: 15px;
+    margin: 10px 25px;
+    gap: 5px;
+}
+.img1 {
+    width: 300px;
+    float: left;
+}
+.img2 {
+    width: 100px;
+    float: right;
+}
+.img3 {
+    width: 150px;
+}
+.img4 {
+    width: 150px;
+}
+.content1 {
+    width: 50%;
+    border: solid 1px #ade792;
+    background-color: #f1fdf3;
+    padding: 10px;
+}
+.content2 {
+    width: 50%;
+    border: solid 1px #82aae3;
+    background-color: #deecff;
+    padding: 10px;
+}
+.heading {
+    border: solid 1px #dddddd;
+    text-align: center;
+    background-color: #f9f9f9;
+    margin: 0 25px;
+}
+.heading h2 {
+    font-weight: 500;
+}
+.article .content1 h3 {
+    border: solid 1px;
+    background-color: #ade792;
+}
+.article .content2 h3 {
+    border: solid 1px;
+    background-color: #82aae3;
+}
+.related-feature p {
+    display: inline;
+}
+.related-feature {
+    text-align: end;
+}
+.related-feature span {
+    font-weight: bolder;
+}
+.related-feature div {
+    font-weight: bold;
+}
+.feature-article {
+    margin-top: 20px;
+}
+.para3 {
+    display: flex;
+    text-align: start;
+}
+.photo-tag {
+    font-size: small;
+    font-weight: 300;
+}
+.footer-link {
+    display: flex;
+    gap: 20px;
+}
+.main {
+    border-left: solid #5bc0f8 2px;
+    border-bottom: solid #5bc0f8 2px;
+}
+footer {
+    background-color: #f9f9f9;
+    padding: 27px;
+    font-size: 12px;
+}
+.footer-link {
+    display: flex;
+    gap: 20px;
+}
